@@ -1,0 +1,21 @@
+{
+  "name": "dev-tinder",
+  "version": "1.0.0",
+  "description": "Tinder for developers",
+  "main": "index.js",
+  "scripts": {
+    "start":"node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB",
+    "ReactJS"
+  ],
+  "author": "Archan Pandya",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
